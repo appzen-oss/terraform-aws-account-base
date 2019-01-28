@@ -1,0 +1,6 @@
+account_name = "example-dev"
+aws_region  = "us-east-1"
+organization = "example"
+ssh_key_name = "devops-2018-12-19"
+ssh_public_key = "ssh-rsa AAAA..tQw== devops-2018-12-19"
+top_level_domain = "example.com"
