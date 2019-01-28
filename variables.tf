@@ -3,7 +3,7 @@ variable "account_name" {
 }
 
 variable "aws_region" {
-  description = ""
+  description = "AWS region to use"
   default     = "us-east-1"
 }
 
