@@ -22,3 +22,9 @@ variable "ssh_public_key" {
 variable "top_level_domain" {
   description = "Top level DNS domain. Account subdomain will be added to this"
 }
+
+variable "tags" {
+  description = "Additional tags"
+  type        = "map"
+  default     = {}
+}
